@@ -17,7 +17,9 @@ HEAD
 
 [] Revert
 --- Create GC v1.2 and Revert GC v1.1
-- 
+- git status : check if file has been added || staged
+- git restore --staged <file> : to unstage a file
+- git restore <file> : restore file to HEAD
  
 BUGFIX 2
 
