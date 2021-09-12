@@ -21,7 +21,9 @@ HEAD
 - git restore --staged <file> : to unstage a file
 - git restore <file> : restore file to HEAD, i.e., previous version
  
-[] Branching
+[] Rebase - smooth changes together
+
+[] New Branch
 --- task: create a branch
 - git branch : current branch highlighted by green ' * '
 - git branch --show-current 
@@ -29,10 +31,12 @@ HEAD
 - git branch <insert branch> : creates new branch
 - git checkout <insert branch name> : switches to new branch
 
+[] Merge Branch
+--- task: merge a branch
+- git checkout master : switch to desired 'main' / 'master' branch
+- git merge <other branch>
+
 [] Commit Typo
 --- task: edit commit message before push
 - git log : see log of all commit messages
 - git --amend : use vim text edit to change commit message
-
-
-revert ALL generic code
