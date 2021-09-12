@@ -7,21 +7,24 @@ HEAD
 
 ### Practice
 
-[] Generic code v1.0
+[] Generic code v1.1
 - git add
 
-[] Generic code v1.1
+[] Generic code v1.2
 --- task: see difference between index file and HEAD
 - git status : display paths that have differences between index file and HEAD 
 - git diff <path/filename> : view changes relative to index, i.e., staging area 4 next commit
 
 [] Revert
---- Create GC v1.2 and Revert GC v1.1
+--- task: create GC v1.3 and Revert GC v1.2
 - git status : check if file has been added || staged
 - git restore --staged <file> : to unstage a file
-- git restore <file> : restore file to HEAD
+- git restore <file> : restore file to HEAD, i.e., previous version
  
-BUGFIX 2
+[] Commit Typo
+--- task: edit commit message before push
+- git log : see log of all commit messages
+- git --amend : use vim text edit to change commit message
 
 revert change 2
 
