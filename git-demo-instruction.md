@@ -1,12 +1,10 @@
 # How to GIT quick save
 
 ### Notes
-
 HEAD
 - indicates the head of the current branch
 
 ### Practice
-
 [] Generic code v1.1
 - git add
 
