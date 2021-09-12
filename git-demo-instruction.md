@@ -15,16 +15,12 @@ HEAD
 - git status : display paths that have differences between index file and HEAD 
 - git diff <path/filename> : view changes relative to index, i.e., staging area 4 next commit
 
-[] Revert v1.0
+[] Revert
+--- Create GC v1.2 and Revert GC v1.1
+- 
  
 BUGFIX 2
 
 revert change 2
 
 revert ALL generic code
-
-### Action
-
-Step 1: Hi my name is Code
-- git add <file> ... can be used mulitply times
-- git status
